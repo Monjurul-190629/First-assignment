@@ -152,11 +152,24 @@ main .section1 p{
     padding: 7px 0;
 }
 .another_section{
-    text-align: center;
+    text-align: left;
+    width: 360px;
+    margin-left: 10px;
 }
-.tltle{
-    color: red;
+.another_section .img_row{
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    grid-gap: 7px;
 }
-.another_section p{
-    color: rgba(7, 2, 17, 0.60);
+.img_row1{
+    width: 280px;
+    height: 250px;
+    transition: .7s;
+}
+
+.img_row1:hover{
+    width: 350px;
+    height: 320px;
+    transition: .8s;
+    border: 2px solid red;
 }
