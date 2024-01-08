@@ -74,7 +74,7 @@ main .section1 p{
     position: absolute;
     transform: translateY(-70%);
     width: 320px;
-    height: 350px;
+    height: 400px;
     right: 15%;
 }
 .section2 div{
