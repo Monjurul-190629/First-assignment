@@ -275,6 +275,10 @@ footer .third_footer a{
     text-decoration: none;
     color: white;
 }
+footer .third_footer a:hover{
+    text-decoration: underline;
+    color: lightblue;
+}
 
 footer hr{
     height: 1px;
